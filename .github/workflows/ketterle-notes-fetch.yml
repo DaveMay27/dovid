@@ -6,6 +6,8 @@ on:
     paths:
       - tools/ketterle_fetch.py
       - .github/workflows/ketterle-notes-fetch.yml
+  issues:
+    types: [opened]
   workflow_dispatch:
 
 permissions:
